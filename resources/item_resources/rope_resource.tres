@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=3 format=3 uid="uid://crg4s3yq2h6j8"]
+
+[ext_resource type="Texture2D" uid="uid://d20d1qy0bqgwb" path="res://Assets/textures/item_icons/rope.png" id="1_26q20"]
+[ext_resource type="Script" path="res://resources/item_resources/item_resource.gd" id="2_ycctv"]
+
+[resource]
+script = ExtResource("2_ycctv")
+item_key = 14
+display_name = "Rope"
+icon = ExtResource("1_26q20")
+description = "IM A ROPE... HANG YOURSELF"
+is_equippable = false

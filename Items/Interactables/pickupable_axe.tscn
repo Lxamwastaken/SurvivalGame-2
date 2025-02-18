@@ -1,0 +1,42 @@
+<<<<<<< HEAD
+[gd_scene load_steps=4 format=3 uid="uid://wxekilxbl7wk"]
+
+[ext_resource type="Script" path="res://Items/Interactables/pickupable.gd" id="1_ofh8x"]
+[ext_resource type="PackedScene" uid="uid://byxfjm7rc14l" path="res://Assets/meshes/axe.tscn" id="1_wn1po"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_rmrbn"]
+radius = 0.15
+height = 0.65
+
+[node name="pickupableAxe" type="Node3D"]
+
+[node name="Axe" parent="." instance=ExtResource("1_wn1po")]
+=======
+[gd_scene load_steps=4 format=3 uid="uid://ismmj6ot6i0a"]
+
+[ext_resource type="PackedScene" uid="uid://byxfjm7rc14l" path="res://Assets/meshes/axe.tscn" id="1_lbcd7"]
+[ext_resource type="Script" path="res://Items/Interactables/pickupable.gd" id="2_5dqpm"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_h0g8u"]
+
+[node name="pickupableTemplate" type="Node3D"]
+
+[node name="Axe" parent="." instance=ExtResource("1_lbcd7")]
+>>>>>>> c9e7637e84e4a186bebdc7e038b186091626d0ef
+
+[node name="pickupable" type="Area3D" parent="."]
+collision_layer = 4
+collision_mask = 0
+<<<<<<< HEAD
+script = ExtResource("1_ofh8x")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="pickupable"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("CapsuleShape3D_rmrbn")
+=======
+script = ExtResource("2_5dqpm")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="pickupable"]
+transform = Transform3D(0.30509, 0, 0, 0, 0.30509, 0, 0, 0, 0.30509, 0, 0.248595, 0)
+shape = SubResource("CapsuleShape3D_h0g8u")
+>>>>>>> c9e7637e84e4a186bebdc7e038b186091626d0ef

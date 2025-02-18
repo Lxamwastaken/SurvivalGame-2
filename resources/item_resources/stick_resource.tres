@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=3 format=3 uid="uid://bvacdybusxcl"]
+
+[ext_resource type="Script" path="res://resources/item_resources/item_resource.gd" id="1_mxs05"]
+[ext_resource type="Texture2D" uid="uid://c0fwmwjytmwtd" path="res://Assets/textures/item_icons/stick.png" id="1_ystv8"]
+
+[resource]
+script = ExtResource("1_mxs05")
+item_key = 0
+display_name = "Stick"
+icon = ExtResource("1_ystv8")
+<<<<<<< HEAD
+description = "Put me in ya butt"
+=======
+>>>>>>> c9e7637e84e4a186bebdc7e038b186091626d0ef

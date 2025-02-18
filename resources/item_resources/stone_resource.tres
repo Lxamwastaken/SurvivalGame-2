@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=3 format=3 uid="uid://drgj6jr555osq"]
+
+[ext_resource type="Texture2D" uid="uid://dtkvfokxgqkbb" path="res://Assets/textures/item_icons/stone.png" id="1_a7k6q"]
+[ext_resource type="Script" path="res://resources/item_resources/item_resource.gd" id="2_bgd1k"]
+
+[resource]
+script = ExtResource("2_bgd1k")
+item_key = 1
+display_name = "Stone"
+icon = ExtResource("1_a7k6q")
+<<<<<<< HEAD
+description = ""
+is_equippable = false
+=======
+>>>>>>> c9e7637e84e4a186bebdc7e038b186091626d0ef
