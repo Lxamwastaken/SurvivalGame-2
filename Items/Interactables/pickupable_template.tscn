@@ -1,14 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://ysfprjfc23o6"]
+[gd_scene load_steps=2 format=3 uid="uid://ysfprjfc23o6"]
 
 [ext_resource type="Script" path="res://Items/Interactables/pickupable.gd" id="1_hdrus"]
 
-[sub_resource type="CylinderMesh" id="CylinderMesh_xvqjh"]
-
 [node name="pickupableTemplate" type="Node3D"]
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(0.0214437, 0, 0, 0, 0.0214437, 0, 0, 0, 0.0214437, 0, 0, 0)
-mesh = SubResource("CylinderMesh_xvqjh")
 
 [node name="pickupable" type="Area3D" parent="."]
 collision_layer = 4

@@ -8,8 +8,5 @@ script = ExtResource("2_bgd1k")
 item_key = 1
 display_name = "Stone"
 icon = ExtResource("1_a7k6q")
-<<<<<<< HEAD
 description = ""
 is_equippable = false
-=======
->>>>>>> c9e7637e84e4a186bebdc7e038b186091626d0ef

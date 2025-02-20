@@ -1,7 +1,9 @@
 extends TextureRect
 
 var item_key
+
 @onready var icon_texture_rect: TextureRect = $MarginContainer/IconTextureRect
+@onready var button: Button = $Button
 
 func set_item_key(_item_key) -> void:
 	item_key = _item_key

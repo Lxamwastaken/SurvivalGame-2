@@ -1,12 +1,14 @@
-[gd_resource type="Resource" script_class="ItemResource" load_steps=3 format=3 uid="uid://ccc8a1tu6stq6"]
+[gd_resource type="Resource" script_class="WeaponItemResource" load_steps=3 format=3 uid="uid://dmnx88jv6t226"]
 
-[ext_resource type="Texture2D" uid="uid://cydu2sv1hmox4" path="res://Assets/textures/item_icons/axe.png" id="1_om48g"]
-[ext_resource type="Script" path="res://resources/item_resources/item_resource.gd" id="2_5kn6u"]
+[ext_resource type="Script" path="res://resources/item_resources/weapon_item_resource.gd" id="1_fway5"]
+[ext_resource type="Texture2D" uid="uid://cydu2sv1hmox4" path="res://Assets/textures/item_icons/axe.png" id="1_mh7rh"]
 
 [resource]
-script = ExtResource("2_5kn6u")
+script = ExtResource("1_fway5")
+damage = 20.0
+range = 1.5
 item_key = 10
 display_name = "Axe"
-icon = ExtResource("1_om48g")
-description = "IM A FUCKIN AXE"
+icon = ExtResource("1_mh7rh")
+description = "A handmade axe"
 is_equippable = true

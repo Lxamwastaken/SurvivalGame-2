@@ -40,12 +40,14 @@ keycode = 4194305
 events = [SubResource("InputEventKey_y4o2e"), SubResource("InputEventKey_axn0q")]
 
 [node name="PlayerMenuBase" type="Control"]
+z_index = -1
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 2
 script = ExtResource("1_h8lb8")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
@@ -55,6 +57,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 2
 theme_override_constants/margin_left = 32
 theme_override_constants/margin_top = 32
 theme_override_constants/margin_right = 32
@@ -80,10 +83,7 @@ patch_margin_right = 48
 patch_margin_bottom = 32
 
 [node name="InventoryContainer" type="GridContainer" parent="MarginContainer/HBoxContainer/VSplitContainer/InventoryPatchRect"]
-<<<<<<< HEAD
 unique_name_in_owner = true
-=======
->>>>>>> c9e7637e84e4a186bebdc7e038b186091626d0ef
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -209,10 +209,7 @@ layout_mode = 2
 theme_override_constants/separation = 32
 
 [node name="ItemDescriptionLabel" type="Label" parent="MarginContainer/HBoxContainer/VSplitContainer/DescriptionNinePatchRect/MarginContainer/HBoxContainer"]
-<<<<<<< HEAD
 unique_name_in_owner = true
-=======
->>>>>>> c9e7637e84e4a186bebdc7e038b186091626d0ef
 custom_minimum_size = Vector2(480, 0)
 layout_mode = 2
 size_flags_horizontal = 3
@@ -220,6 +217,7 @@ size_flags_vertical = 1
 autowrap_mode = 2
 
 [node name="ItemExtraInfoLabel" type="Label" parent="MarginContainer/HBoxContainer/VSplitContainer/DescriptionNinePatchRect/MarginContainer/HBoxContainer"]
+unique_name_in_owner = true
 custom_minimum_size = Vector2(32, 0)
 layout_mode = 2
 size_flags_horizontal = 3
@@ -273,10 +271,7 @@ theme_override_constants/margin_bottom = 32
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer/VBoxContainer/UtilityNinePatchRect/MarginContainer"]
 layout_mode = 2
-<<<<<<< HEAD
 theme_override_constants/separation = 32
-=======
->>>>>>> c9e7637e84e4a186bebdc7e038b186091626d0ef
 
 [node name="NinePatchRect" type="NinePatchRect" parent="MarginContainer/HBoxContainer/VBoxContainer/UtilityNinePatchRect/MarginContainer/VBoxContainer"]
 custom_minimum_size = Vector2(256, 64)

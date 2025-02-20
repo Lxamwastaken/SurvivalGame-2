@@ -12,10 +12,7 @@ height = 0.5
 [node name="Plant" parent="." index="0" instance=ExtResource("2_kg3f6")]
 
 [node name="pickupable" parent="." index="1"]
-<<<<<<< HEAD
 item_key = 2
-=======
->>>>>>> c9e7637e84e4a186bebdc7e038b186091626d0ef
 prompt = "Pick up"
 
 [node name="CollisionShape3D" parent="pickupable" index="0"]

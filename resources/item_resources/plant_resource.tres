@@ -1,19 +1,11 @@
 [gd_resource type="Resource" script_class="ItemResource" load_steps=3 format=3 uid="uid://ds7nmubo16r72"]
 
-<<<<<<< HEAD
 [ext_resource type="Texture2D" uid="uid://cwmvus58x1cfx" path="res://Assets/textures/item_icons/plant.png" id="1_0dnma"]
-=======
-[ext_resource type="Texture2D" uid="uid://dtkvfokxgqkbb" path="res://Assets/textures/item_icons/stone.png" id="1_7dowc"]
->>>>>>> c9e7637e84e4a186bebdc7e038b186091626d0ef
 [ext_resource type="Script" path="res://resources/item_resources/item_resource.gd" id="2_eeb4n"]
 
 [resource]
 script = ExtResource("2_eeb4n")
 item_key = 2
 display_name = "Plant"
-<<<<<<< HEAD
 icon = ExtResource("1_0dnma")
 description = "IMMA BIG GREEN PLANT"
-=======
-icon = ExtResource("1_7dowc")
->>>>>>> c9e7637e84e4a186bebdc7e038b186091626d0ef

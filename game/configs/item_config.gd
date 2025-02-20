@@ -1,7 +1,6 @@
 class_name ItemConfig
 
 enum Keys {
-<<<<<<< HEAD
 	#  Pickupables
 	Stick,
 	Stone,
@@ -44,22 +43,11 @@ const ITEM_RESOURCE_PATHS := {
 	Keys.Plant : "res://resources/item_resources/plant_resource.tres",
 	Keys.Axe : "res://resources/item_resources/axe_resource.tres",
 	Keys.Rope : "res://resources/item_resources/rope_resource.tres"
-=======
-	Stick = 0,
-	Stone = 1,
-	Plant = 2
-}
-
-
-const ITEM_RESOURCE_PATHS := {
-	Keys.Stick : "res://resources/item_resources/stick_resource.tres"
->>>>>>> c9e7637e84e4a186bebdc7e038b186091626d0ef
 	}
 	
 	
 static func get_item_resource(key : Keys) -> ItemResource:
 	return load(ITEM_RESOURCE_PATHS.get(key))
-<<<<<<< HEAD
 
 
 
@@ -70,5 +58,11 @@ const CRAFTING_BLUEPRINT_RESOURCE_PATHS := {
 
 static func get_crafting_blueprint_resource(key : Keys) -> CraftingBlueprintResource:
 	return load(CRAFTING_BLUEPRINT_RESOURCE_PATHS.get(key))
-=======
->>>>>>> c9e7637e84e4a186bebdc7e038b186091626d0ef
+
+
+const EQUIPABLE_ITEM_PATHS := {
+	Keys.Axe : "res://Items/Equipables/equipable_axe.tscn"
+}
+
+static func get_equipable_item(key : Keys) -> PackedScene:
+	return load(EQUIPABLE_ITEM_PATHS.get(key))

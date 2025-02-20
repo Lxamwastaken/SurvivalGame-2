@@ -1,13 +1,7 @@
-<<<<<<< HEAD
 [gd_scene load_steps=3 format=3 uid="uid://jaactexf64ou"]
 
 [ext_resource type="Texture2D" uid="uid://d3d4ldv1v5mci" path="res://Assets/textures/panel_brown.png" id="1_ni0ha"]
 [ext_resource type="Script" path="res://ui/custom_nodes/inventory_slot.gd" id="2_b8vyg"]
-=======
-[gd_scene load_steps=2 format=3 uid="uid://jaactexf64ou"]
-
-[ext_resource type="Texture2D" uid="uid://d3d4ldv1v5mci" path="res://Assets/textures/panel_brown.png" id="1_ni0ha"]
->>>>>>> c9e7637e84e4a186bebdc7e038b186091626d0ef
 
 [node name="Inventory_slot" type="TextureRect"]
 custom_minimum_size = Vector2(96, 96)
@@ -15,10 +9,7 @@ offset_right = 40.0
 offset_bottom = 40.0
 texture = ExtResource("1_ni0ha")
 expand_mode = 1
-<<<<<<< HEAD
 script = ExtResource("2_b8vyg")
-=======
->>>>>>> c9e7637e84e4a186bebdc7e038b186091626d0ef
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1
@@ -34,7 +25,4 @@ theme_override_constants/margin_bottom = 8
 
 [node name="TextureRect" type="TextureRect" parent="MarginContainer"]
 layout_mode = 2
-<<<<<<< HEAD
 expand_mode = 1
-=======
->>>>>>> c9e7637e84e4a186bebdc7e038b186091626d0ef

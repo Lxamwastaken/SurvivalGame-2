@@ -22,3 +22,5 @@ amount = 1
 script = ExtResource("1_xpfg8")
 item_key = 10
 costs = Array[ExtResource("1_8sl51")]([SubResource("Resource_g3v5x"), SubResource("Resource_yyewn"), SubResource("Resource_4c7wb")])
+needs_multitool = false
+needs_tinderbox = false
